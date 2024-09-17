@@ -18,7 +18,3 @@ def test_desktop(window_width, window_height):
         browser.open('https://github.com')
         browser.element('[href="/login"]').click()
     browser.quit()
-
-
-
-
